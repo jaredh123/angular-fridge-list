@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ang-website-edit.component.html',
   styleUrls: ['./ang-website-edit.component.css']
 })
-export class AngWebsiteEditComponent implements OnInit {
+export class AngWebsiteEditComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
 
 }
