@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ang-website-list.component.html',
   styleUrls: ['./ang-website-list.component.css']
 })
-export class AngWebsiteListComponent implements OnInit {
+export class AngWebsiteListComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
 
 }

@@ -31,8 +31,7 @@ Software Requirements:
 * Run the command "$ ng serve" to start application.
 
 #### Prerequisites
-* Must have a working browser, terminal, Node.js, and npm.
-* Must have basic computer use proficiency
+
 
 ## Built With
 
