@@ -16,6 +16,53 @@ A website built with JavaScript using the Angular framework.
 
 * No known bugs.
 
+## Specifications
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+
+## Setup and Use
+Software Requirements:
+
+* Clone this repository [repo](https://github.com/jaredh123/site-rebuild-angular): "$ git clone https://github.com/jaredh123/site-rebuild-angular".
+* To edit the project, open the project in your preferred text editor.
+* To run application, use terminal to go to the root level in the project directory.
+* Run the commands "$ npm install" to install all dependencies in the package.JSON file.
+* Run the command "$ ng build" to build application.
+* Run the command "$ ng serve" to start application.
+
+#### Prerequisites
+* Must have a working browser, terminal, Node.js, and npm.
+* Must have basic computer use proficiency
+
+## Built With
+
+* Atom (IDE)
+* Git
+* Node.js
+* npm
+* Jasmine
+* Karma
+
+## Contributors
+
+| Author | GitHub | Email |
+|--------|:------:|:-----:|
+| Jared Hanson | [jaredh123](https://github.com/jaredh123) | [jared.hanson12345@gmail.com](mailto:jared.hanson12345@gmail.com) |
+
+## Support and contact details
+
+If you have any feedback or concerns, please contact me at [jared.hanson12345@gmail.com](mailto:jared.hanson12345@gmail.com).
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Jared Hanson. All Rights Reserved. MIT License
+
+Copyright (c) 2019 [Jared Hanson](https://github.com/jaredh123)
+
+
+
+
+
 # AngWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
