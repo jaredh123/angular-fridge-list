@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AngWebsiteEditComponent {
 
-  constructor() { }
+  @Input() childSelectedItem: Item;
+  @Output() clickedDone = new EventEmitter();
+  finishedEditing() {
+    this.clickedDone.emit();
+  }
 
 
 }
