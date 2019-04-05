@@ -1,3 +1,21 @@
+|<img src="https://github.com/identicons/jaredh123.png" width=100 alt="GitHub identicon for author jaredh123">|
+|:-----:|
+| [**jaredh123**](https://github.com/jaredh123 ) |
+
+##  **Angular Website**
+
+#### Epicodus independent project Week 3 of JavaScript, created April 5th, 2019
+#### By Jared Hanson
+
+----------
+
+## Description
+A website built with JavaScript using the Angular framework.
+
+## Known Bugs
+
+* No known bugs.
+
 # AngWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
