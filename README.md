@@ -2,26 +2,37 @@
 |:-----:|
 | [**jaredh123**](https://github.com/jaredh123 ) |
 
-##  **Angular Website**
+##  **Fridge Website**
 
-#### Epicodus independent project Week 3 of JavaScript, created April 5th, 2019
+#### Epicodus independent project Week 3 and 4 of JavaScript, created April 5th, 2019
 #### By Jared Hanson
 
 ----------
 
 ## Description
-A website built with JavaScript using the Angular framework.
+A refrigerator list making website built with JavaScript using an Angular framework and Firebase 2 database.
 
 ## Known Bugs
-
 * No known bugs.
 
 ## Hosting URL
 https://fridge-44469.firebaseapp.com
 
 ## Specifications
+Current Functions:
+
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
+| User adds new list item | Types "item1" and clicks add button | List displays "item1" |
+| User deletes a list item | Clicks delete button next to "item1" and verifies with prompt | List does not contain "item1" |
+
+
+Future Functions:
+
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+| User adds to item information | Clicks item and types information for it | item now has details |
+| User changes item information | Clicks item and chooses to edit information for it | item now has new details |
 
 ## Setup and Use
 Software Requirements:
@@ -33,15 +44,39 @@ Software Requirements:
 * Run the command "$ ng build" to build application.
 * Run the command "$ ng serve" to start application.
 
-#### Prerequisites
-
+## Setup/Installation Requirements
+* Download Angular and Node Package Manger and install them.
+* In the src/app folder create a file called api-keys
+* Go to "https://console.firebase.google.com".
+* Click "Add project".
+* Enter a project name.
+* Click the checkbox once you accept the terms.
+* Click "Create Project".
+* "Your new project is ready" will appear in the popup when your project has been created. Click "continue".
+* Select "</>" in the blue panel. Copy your configuration details to the information below. This should appear with your own configuration (your own contents replacing the X's). :
+```javascript
+export const masterFirebaseConfig = {
+  apiKey: XXX,
+  authDomain: XXX,
+  databaseURL: XXX,
+  storageBucket: XXX,
+  messagingSenderId: XXX
+};
+```
+* It is important that the object is exported and named "masterFirebaseConfig."
+* Navigate to the root directory in Terminal.
+* Type "npm i" in the command line.
+* When the packages have all been installed enter commands "ng build" and "ng serve" in the command line. The project should then build and open automatically in your browser.
 
 ## Built With
-
-* Atom (IDE)
-* Git
-* Node.js
-* npm
+* HTML
+* Terminal
+* Atom
+* JavaScript
+* TypeScript
+* Angular
+* CSS
+* Firebase
 * Jasmine
 * Karma
 
@@ -63,9 +98,7 @@ Copyright (c) 2019 [Jared Hanson](https://github.com/jaredh123)
 
 
 
-
-
-# AngWebsite
+# Fridge Website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
