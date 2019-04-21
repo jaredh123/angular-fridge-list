@@ -16,6 +16,9 @@ A website built with JavaScript using the Angular framework.
 
 * No known bugs.
 
+## Hosting URL
+https://fridge-44469.firebaseapp.com
+
 ## Specifications
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
