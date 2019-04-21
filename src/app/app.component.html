@@ -1,7 +1,6 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!-- The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>Welcome to {{ title }}!</h1>
-  <app-ang-website-list [childItemList]="masterItemList" (clickSender)="editItem($event)"></app-ang-website-list>
-  <app-ang-website-edit [childSelectedItem]="selectedItem" (clickedDone)="finishedEditing()"></app-ang-website-edit>
-  <app-ang-website-new (sendItem)="addItem($event)"></app-ang-website-new>
+  <h1>Welcome to the {{ title }}!</h1>
 </div>
+
+<router-outlet></router-outlet>

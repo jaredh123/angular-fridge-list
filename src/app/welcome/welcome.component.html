@@ -1,0 +1,15 @@
+<h3>Fridge Items:</h3>
+
+<h4>Add a new item to the list</h4>
+<div>
+  <label>Item:</label>
+  <br>
+  <input #newName placeholder="Enter an item">
+  <a routerLink=""><button (click)="submitForm(newName.value); newName.value=''">Add</button></a>
+</div>
+
+<div *ngFor="let item of items | async">
+    <h3><em>{{item.name}}</em> <button (click)="beginDeletingItem(item)">Delete</button> </h3>
+</div>
+
+<h3>{{(itemToDisplay | async)?.name}}</h3>

@@ -1,20 +1,20 @@
 // import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 //
-// import { AngWebsiteListComponent } from './ang-website-list.component';
+// import { WelcomeComponent } from './welcome.component';
 //
-// describe('AngWebsiteListComponent', () => {
-//   let component: AngWebsiteListComponent;
-//   let fixture: ComponentFixture<AngWebsiteListComponent>;
+// describe('WelcomeComponent', () => {
+//   let component: WelcomeComponent;
+//   let fixture: ComponentFixture<WelcomeComponent>;
 //
 //   beforeEach(async(() => {
 //     TestBed.configureTestingModule({
-//       declarations: [ AngWebsiteListComponent ]
+//       declarations: [ WelcomeComponent ]
 //     })
 //     .compileComponents();
 //   }));
 //
 //   beforeEach(() => {
-//     fixture = TestBed.createComponent(AngWebsiteListComponent);
+//     fixture = TestBed.createComponent(WelcomeComponent);
 //     component = fixture.componentInstance;
 //     fixture.detectChanges();
 //   });
