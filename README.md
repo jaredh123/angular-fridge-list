@@ -7,6 +7,8 @@
 #### Epicodus independent project for Weeks 3 and 4 of JavaScript, created April 5th, 2019
 #### By Jared Hanson
 
+----------
+
 ## Description
 A refrigerator list making website built with JavaScript using an Angular framework and Firebase 2 database.
 
