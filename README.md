@@ -70,9 +70,6 @@ export const masterFirebaseConfig = {
 
 ## Built With
 * HTML
-* Terminal
-* Atom
-* JavaScript
 * TypeScript
 * Angular
 * CSS
