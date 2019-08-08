@@ -10,7 +10,7 @@
 ----------
 
 ## Description
-A refrigerator list making website built with JavaScript using an Angular framework and Firebase 2 database.
+A refrigerator list making website built with TypeScript using an Angular framework and Firebase 2 database.
 
 ## Known Bugs
 * No known bugs.
